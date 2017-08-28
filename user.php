@@ -25,7 +25,7 @@ class USER
     //Constructor de clase
     function __construct($id, $nombre, $apellido, $email, $description, $timemodified)
     {
-        //Asignación $this de parametros enviados
+        //AsignaciÃ³n $this de parametros enviados
         $this->id        	= $id;
 		$this->nombre       = $nombre;
         $this->apellido     = $apellido;
@@ -34,15 +34,15 @@ class USER
         $this->timemodified = $timemodified;
     }
  
-    //Método Tipo get concatenado
+    //MÃ©todo Tipo get concatenado
     function NombreCompleto()
     {
         return $this->nombre . " " . $this->apellido;
     }
-	//Métodos simples
+	//MÃ©todos simples
 	function Descripcion()
     {
-        return $this->nombre;
+        return $this->description;
     }
 	function Email()
     {
