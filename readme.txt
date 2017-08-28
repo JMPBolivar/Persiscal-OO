@@ -1,4 +1,6 @@
-*La data de la tabla se generó aleatoriamente con la ayuda de generatedata.com
+# 1.a Modelado OO
+
+*La data de la tabla se generÃ³ aleatoriamente con la ayuda de generatedata.com
 para facilidad del caso de uso de la pregunta 1.a.
 
 *test-database.php comentado, prueba de base de datos, PDO::FETCH
@@ -6,3 +8,7 @@ para facilidad del caso de uso de la pregunta 1.a.
 *user.php test 1.a Modelado OO
 
 *persiscal_moodle.sql base de datos para 1.a
+
+=======
+# Persiscal-OO
+Modelado OO
